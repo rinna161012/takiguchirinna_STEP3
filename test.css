@@ -1,0 +1,50 @@
+
+@charset "UTF-8";
+
+header {
+    background-color: yellow;
+    font-weight: bold;
+  top: 0; 
+  width: 700px; 
+  height: 60px; 
+  text-align: center;
+}
+h2 {
+padding-top: 10px;
+}
+ main {
+    width: 200px;
+    background-color: aqua;
+}
+aside {
+    background-color: bisque;
+    width: 500px;
+    height: 330px;
+}
+
+footer {
+    background-color: darkgrey;
+    width: 700px;
+    height: 60px;
+}
+
+.container {
+    grid-template-rows: auto 1fr auto;
+        display: flex; 
+    
+}
+table {
+     max-inline-size: max-content; 
+     margin-inline: auto; 
+     margin-top: 20px;
+    }
+    label {
+        float: right;
+        width: 90px;
+        padding-top: 5px;
+    
+    }
+    
+      
+      
+      
